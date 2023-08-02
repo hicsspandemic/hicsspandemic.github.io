@@ -46,5 +46,6 @@
     "ts-jest": "29.1.1",
     "typescript": "5.1.6"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "packageManager": "yarn@1.22.19"
 }
