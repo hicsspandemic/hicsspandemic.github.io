@@ -15,6 +15,7 @@ jobs:
             ln -s index.html 404.html
             git config --global user.email "wjentner@ou.edu"
             git config --global user.name "wjentner"
+            git config --global init.defaultBranch "main"
             git init
             git add -A
             git commit -m 'deploy to pages'
