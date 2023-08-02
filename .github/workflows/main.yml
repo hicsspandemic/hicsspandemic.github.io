@@ -7,9 +7,23 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: Build-Vue
-      uses: xRealNeon/VuePagesAction@1.0.1
+      run: |
+              if [ true ==  ${{ inputs.useyarn }} ]; then yarn install --frozen-lockfile; else npm ci; fi
+              if [ true ==  ${{ inputs.useyarn }} ]; then yarn build; else npm run build; fi
+              cd dist
+              ln -s index.html 404.html
+              if [ "none" !=  ${{ inputs.cname }} ]; then echo '${{ inputs.cname }}' > CNAME; fi
+              git config --global user.email "${{ inputs.gitemail }}"
+              git config --global user.name "${{ inputs.gitname }}"
+              git init
+              git add -A
+              git commit -m 'deploy to pages'
+              git push -f https://${{ inputs.username }}:${{ inputs.token }}@github.com/${{ inputs.username }}/${{ inputs.reponame }}.git main:gh-pages
+        shell: bash
       with:
         username: 'hicsspandemic'
         reponame: 'hicsspandemic.github.io'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
         useyarn: true
+        gitemail: wjentner@ou.edu
+        gitname: wjentner
