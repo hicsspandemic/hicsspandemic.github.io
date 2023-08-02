@@ -11,13 +11,8 @@ jobs:
       run: |
             yarn install --frozen-lockfile
             yarn build
-            cd dist
-            ln -s index.html 404.html
-            git config --global user.email "wjentner@ou.edu"
-            git config --global user.name "wjentner"
-            git config --global init.defaultBranch "main"
-            git init
-            git add -A
-            git commit -m 'deploy to pages'
-            git push -f "https://hicsspandemic:${{ secrets.GITHUB_TOKEN }}@github.com/hicsspandemic/hicsspandemic.github.io.git" main:gh-pages
       shell: bash
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: dist/
