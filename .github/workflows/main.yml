@@ -19,4 +19,4 @@ jobs:
             git add -A
             git commit -m 'deploy to pages'
             git push -f https://hicsspandemic:${{ secrets.GITHUB_TOKEN }}@github.com/$hicsspandemic/hicsspandemic.github.io.git main:gh-pages
-        shell: bash
+      shell: bash
