@@ -118,9 +118,15 @@
                   </ion-col>
 
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="TBD" :src="require('@/tbd.jpg')" />
+                    <img class="img" alt="Marco Ajelli" :src="require('@/ma.jpg')" />
 
-                    <h1 class="name">TBD</h1>
+                    <h1 class="name">Marco Ajelli</h1>
+
+                    <ul class="info">
+                      <li>Accociate Professor, Epidemiology and Biostatistics</li>
+                      <li>School of Public Health</li>
+                      <li>Indiana University</li>
+                    </ul>
                   </ion-col>
 
                 </ion-row>
