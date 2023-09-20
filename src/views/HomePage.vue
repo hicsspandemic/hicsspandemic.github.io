@@ -118,14 +118,14 @@
                   </ion-col>
 
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="Marco Ajelli" :src="require('@/ma.jpg')" />
+                    <img class="img" alt="Kelly Pierce" :src="require('@/kp.jpg')" />
 
-                    <h1 class="name">Marco Ajelli</h1>
+                    <h1 class="name">Kelly Pierce</h1>
 
                     <ul class="info">
-                      <li>Accociate Professor, Epidemiology and Biostatistics</li>
-                      <li>School of Public Health</li>
-                      <li>Indiana University</li>
+                      <li>Principal Data Scientist</li>
+                      <li>The Public Health Company</li>
+                      <li>Austin, TX</li>
                     </ul>
                   </ion-col>
 
@@ -151,9 +151,15 @@
               <ion-grid>
                 <ion-row>
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="TBD" :src="require('@/tbd.jpg')" />
+                    <img class="img" alt="Marco Ajelli" :src="require('@/ma.jpg')" />
 
-                    <h1 class="name">TBD</h1>
+                    <h1 class="name">Marco Ajelli</h1>
+
+                    <ul class="info">
+                      <li>Accociate Professor, Epidemiology and Biostatistics</li>
+                      <li>School of Public Health</li>
+                      <li>Indiana University</li>
+                    </ul>
                   </ion-col>
 
                   <ion-col size="12" size-sm class="speaker">
@@ -222,9 +228,16 @@
                   </ion-col>
 
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="TBD" :src="require('@/tbd.jpg')" />
+                    <img class="img" alt="Suzanne Pierce" :src="require('@/sp.jpg')" />
 
-                    <h1 class="name">TBD</h1>
+                    <h1 class="name">Suzanne Pierce</h1>
+
+                    <ul class="info">
+                      <li>Research Scientist</li>
+                      <li>Intelligent Decision Support Systems</li>
+                      <li>Texas Advanced Computing Center</li>
+                      <li>The University of Texas at Austin</li>
+                    </ul>
                   </ion-col>
 
                 </ion-row>
