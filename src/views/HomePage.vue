@@ -51,7 +51,7 @@
             </ion-card-header>
 
             <ion-card-content>
-              <h2 style="margin-bottom:20px">Date: TBD</h2>
+              <h2 style="margin-bottom:20px;font-weight:bold;">Wednesday, January 3rd, 2024 (9 am - 4 pm). Hilton Hawaiian Village Waikiki Beach Resort, Waikiki, Hawaii, USA</h2>
               
               <p>
                 The events of the last three years with the spread of the SARS-CoV-2 virus and the outbreak of COVID-19 becoming a global pandemic have had catastrophic effects in many parts of the world and continue to have lasting ripple effects, many of which won’t fully be realized for decades to come. As COVID-19 becomes endemic, it is crucial to identify gaps in research, infrastructure, policy, and communication to better prepare for when, not if, we are faced with these circumstances again.
@@ -118,15 +118,9 @@
                   </ion-col>
 
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="Kelly Pierce" :src="require('@/kp.jpg')" />
+                    <img class="img" alt="TBD" :src="require('@/tbd.jpg')" />
 
-                    <h1 class="name">Kelly Pierce</h1>
-
-                    <ul class="info">
-                      <li>Principal Data Scientist</li>
-                      <li>The Public Health Company</li>
-                      <li>Austin, TX</li>
-                    </ul>
+                    <h1 class="name">TBD</h1>
                   </ion-col>
 
                 </ion-row>
