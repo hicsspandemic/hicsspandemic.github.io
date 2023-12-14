@@ -91,15 +91,13 @@
               <ion-grid>
                 <ion-row>
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="Thirumalai Venkatesan" :src="require('@/vt.jpg')" />
+                    <img class="img" alt="Velmurugan Thavasi" :src="require('@/vt.jpg')" />
 
-                    <h1 class="name">Thirumalai Venkatesan</h1>
+                    <h1 class="name">Velmurugan Thavasi</h1>
 
                     <ul class="info">
-                      <li>Professor, FRS, FNAI, FSNAS, FAPS, FMRS, FWIF, FAAIA, AAPAM</li>
-                      <li>Director, Center for Quantum Research and Technology (CQRT)</li>
-                      <li>Founding Director, Center of Optimal Materials for Emerging Technologies (COMET)</li>
-                      <li>Departments of Physics and ECE</li>
+                      <li>Managing Director</li>
+                      <li>Center for Quantum Research and Technology (CQRT)</li>
                       <li>University of Oklahoma</li>
                     </ul>
                   </ion-col>
@@ -170,9 +168,17 @@
                   </ion-col>
 
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="TBD" :src="require('@/tbd.jpg')" />
+                    <img class="img" alt="Aaron Wendelboe" :src="require('@/aw.jpg')" />
 
-                    <h1 class="name">TBD</h1>
+                    <h1 class="name">Aaron Wendelboe</h1>
+
+                    <ul class="info">
+                      <li>Professor, Epidemiology</li>
+                      <li>Edward E. and Helen T. Bartlett Chair in Public Health</li>
+                      <li>Williams Companies Foundation Presidential Professor</li>
+                      <li>Department of Biostatistics and Epidemiology</li>
+                      <li>The University of Oklahoma Health Sciences Center</li>
+                    </ul>
                   </ion-col>
 
                 </ion-row>
@@ -257,16 +263,15 @@
                 <ion-row>
 
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="Aaron Wendelboe" :src="require('@/aw.jpg')" />
+                    <img class="img" alt="David Ebert" :src="require('@/de.jpg')" />
 
-                    <h1 class="name">Aaron Wendelboe</h1>
+                    <h1 class="name">David Ebert</h1>
 
                     <ul class="info">
-                      <li>Professor, Epidemiology</li>
-                      <li>Edward E. and Helen T. Bartlett Chair in Public Health</li>
-                      <li>Williams Companies Foundation Presidential Professor</li>
-                      <li>Department of Biostatistics and Epidemiology</li>
-                      <li>The University of Oklahoma Health Sciences Center</li>
+                      <li>Gallogly Chair Professor of ECE and CS</li>
+                      <li>Associate Vice President of Research and Partnerships</li>
+                      <li>Director, Data Institute for Societal Challenges (DISC)</li>
+                      <li>University of Oklahoma</li>
                     </ul>
                   </ion-col>
 
@@ -284,9 +289,16 @@
                   </ion-col>
 
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="TBD" :src="require('@/tbd.jpg')" />
+                    <img class="img" alt="Maytal Dahan" :src="require('@/md.jpg')" />
 
-                    <h1 class="name">TBD</h1>
+                    <h1 class="name">Maytal Dahan</h1>
+
+                    <ul class="info">
+                      <li>Director</li>
+                      <li>Advanced Computing Interfaces</li>
+                      <li>Texas Advanced Computing Center (TACC)</li>
+                      <li>University of Texas</li>
+                    </ul>
                   </ion-col>
                   
 
