@@ -96,7 +96,7 @@
                     <h1 class="name">Velmurugan Thavasi</h1>
 
                     <ul class="info">
-                      <li>Managing Director</li>
+                      <li>Senior Researcher</li>
                       <li>Center for Quantum Research and Technology (CQRT)</li>
                       <li>University of Oklahoma</li>
                     </ul>
