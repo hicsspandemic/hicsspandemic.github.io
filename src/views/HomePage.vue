@@ -116,9 +116,15 @@
                   </ion-col>
 
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="TBD" :src="require('@/tbd.jpg')" />
+                    <img class="img" alt="Kelly Gaither" :src="require('@/kg.jpg')" />
 
-                    <h1 class="name">TBD</h1>
+                    <h1 class="name">Kelly Gaither</h1>
+
+                    <ul class="info">
+                      <li>Deputy Director, Senior Research Scientist, Texas Advanced Computing Center</li>
+                      <li>Associate Professor, Department of Women's Health, Dell Medical School</li>
+                      <li>The University of Texas at Austin</li>
+                    </ul>
                   </ion-col>
 
                 </ion-row>
@@ -276,15 +282,14 @@
                   </ion-col>
 
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="David Kendrick" :src="require('@/dk.jpg')" />
+                    <img class="img" alt="Ann Chou" :src="require('@/ac.jpg')" />
 
-                    <h1 class="name">David Kendrick</h1>
+                    <h1 class="name">Ann Chou</h1>
 
                     <ul class="info">
-                      <li>PI and CEO - MyHealth Access Network</li>
-                      <li>Chair of the Board for the National Committee for Quality Assurance (NCQA)</li>
-                      <li>Board member for Strategic Health Information Exchange Collaborative (SHIEC)</li>
-                      <li>Chair, Department of Medical Informatics, University of Oklahoma</li>
+                      <li>Professor</li>
+                      <li>Department of Family and Preventive Medicine</li>
+                      <li>The University of Oklahoma Health Sciences Center</li>
                     </ul>
                   </ion-col>
 
