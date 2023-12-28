@@ -149,14 +149,15 @@
               <ion-grid>
                 <ion-row>
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="Marco Ajelli" :src="require('@/ma.jpg')" />
+                    <img class="img" alt="David Ebert" :src="require('@/de.jpg')" />
 
-                    <h1 class="name">Marco Ajelli</h1>
+                    <h1 class="name">David Ebert</h1>
 
                     <ul class="info">
-                      <li>Accociate Professor, Epidemiology and Biostatistics</li>
-                      <li>School of Public Health</li>
-                      <li>Indiana University</li>
+                      <li>Gallogly Chair Professor of ECE and CS</li>
+                      <li>Associate Vice President of Research and Partnerships</li>
+                      <li>Director, Data Institute for Societal Challenges (DISC)</li>
+                      <li>University of Oklahoma</li>
                     </ul>
                   </ion-col>
 
@@ -269,14 +270,13 @@
                 <ion-row>
 
                   <ion-col size="12" size-sm class="speaker">
-                    <img class="img" alt="David Ebert" :src="require('@/de.jpg')" />
+                    <img class="img" alt="Wolfgang Jentner" :src="require('@/wj.jpg')" />
 
-                    <h1 class="name">David Ebert</h1>
+                    <h1 class="name">Wolfgang Jentner</h1>
 
                     <ul class="info">
-                      <li>Gallogly Chair Professor of ECE and CS</li>
-                      <li>Associate Vice President of Research and Partnerships</li>
-                      <li>Director, Data Institute for Societal Challenges (DISC)</li>
+                      <li>Research Scientist</li>
+                      <li>Data Institute for Societal Challenges (DISC)</li>
                       <li>University of Oklahoma</li>
                     </ul>
                   </ion-col>
